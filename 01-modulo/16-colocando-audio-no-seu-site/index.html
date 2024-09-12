@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Médias em HTML5</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudio</h1>
+
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+    <audio preload="metadata" controls autoplay loop>
+        <!-- MP3 WAV OGG -->
+         <source src="audio-qualquer.mp3" type="audio/mpeg">
+
+         <source src="audio-qualquer.ogg" type="audio/ogg">
+
+         <source src="audio-qualquer.wav" type="audio/wav"> 
+
+         <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="audio-qualquer.mp3" download="audio-qualquer.mp3">Clique aqui para baixar o arquivo MP#</a></p>
+    </audio>
+</body>
+</html>
